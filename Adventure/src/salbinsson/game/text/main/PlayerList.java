@@ -19,7 +19,7 @@ public class PlayerList {
 	         while(iterator.hasNext()) {
 	            Player player = iterator.next();
 	            //System.out.println(element);
-	    		buffer.write(player.Name + " has a hit rate of "+ player.acc.hit+" and a healt of "+player.acc.health + ".");	
+	    		buffer.write(player.Name + " has a hit rate of "+ player.acc.hit+" and a healt of "+player.acc.health + ". He is "+ player.F + " and resides at position"+ player.P.p.toString());	
 
 	         }
 

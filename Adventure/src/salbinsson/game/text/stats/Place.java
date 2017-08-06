@@ -5,15 +5,18 @@ import java.util.Vector;
 public class Place {
 	
 	Vector<Vector<Double>>  matrix= new Vector<Vector<Double>>();
-	enum x {A,B,C,D};
-	enum y {a,b,c,d};
+	public enum x {A,B,C,D};
+	public enum y {a,b,c,d};
+	public Pos p = new Pos ();
 	
-	class Pos {
+	public class Pos {
 		x X;
 		y Y;
 	}
 	
-	Place (x X,y Y) {
+	public Place (x X,y Y) {
+		p.X=X;
+		p.Y=Y;
 		
 	}
 	
