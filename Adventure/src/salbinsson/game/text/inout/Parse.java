@@ -2,7 +2,12 @@ package salbinsson.game.text.inout;
 
 public class Parse {
 	
-	public enum Command {W,E,N,S};
+	public enum Cmd {W,E,N,S, INV,ATTACK,LOOK};
+	
+	public Cmd Interpret (String S) {
+		
+		return Cmd.S;
+	}
 	
 	
 
