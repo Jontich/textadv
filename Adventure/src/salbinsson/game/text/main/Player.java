@@ -9,12 +9,12 @@ public class Player {
 	Place P = new Place (x.A,y.a);
 
 	
-	Player (int hit, int health, String N) {
+	Player (int hit, int health, String N, Place p) {
 			Friendly F = Friendly.good;
 			acc.hit = hit;
 			acc.health = health;
 			Name = N;
-//			P. = 
+			P = p;
 	}
 
 

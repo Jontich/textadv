@@ -10,8 +10,8 @@ public class Place {
 	public Pos p = new Pos ();
 	
 	public class Pos {
-		x X;
-		y Y;
+		public x X;
+		public y Y;
 	}
 	
 	public Place (x X,y Y) {
