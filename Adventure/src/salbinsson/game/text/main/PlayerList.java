@@ -3,6 +3,9 @@ package salbinsson.game.text.main;
 import java.util.*;
 
 import salbinsson.game.text.inout.Buffer;
+import salbinsson.game.text.stats.Place;
+import salbinsson.game.text.stats.Place.x;
+import salbinsson.game.text.stats.Place.y;
 
 
 public class PlayerList {
@@ -12,7 +15,7 @@ public class PlayerList {
 	      Set<Player> set = new HashSet<Player>();
 	      try {
 	         for(int i = 0; i < 5; i++) {
-	            set.add(new Player(12,99,"Mes_"+ i));
+	            set.add(new Player(12,99,"Mes_"+ i,new Place (x.A,y.a)));
 	         }
 	         System.out.println(set);
 	         Iterator<Player> iterator = set.iterator();
