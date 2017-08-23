@@ -1,11 +1,9 @@
-package salbinsson.game.text.main;
+package salbinsson.game.text.world;
 
 import java.util.*;
 
 import salbinsson.game.text.inout.Buffer;
-import salbinsson.game.text.world.Place;
-import salbinsson.game.text.world.Place.x;
-import salbinsson.game.text.world.Place.y;
+import salbinsson.game.text.world.Place.*;
 
 
 public class PlayerList {

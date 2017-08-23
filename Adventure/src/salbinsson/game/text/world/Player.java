@@ -1,6 +1,5 @@
-package salbinsson.game.text.main;
+package salbinsson.game.text.world;
 import salbinsson.game.text.stats.*;
-import salbinsson.game.text.world.Place;
 import salbinsson.game.text.world.Place.*;
 public class Player {
 	Accuracy acc = new Accuracy();

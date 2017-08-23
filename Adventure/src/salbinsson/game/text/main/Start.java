@@ -1,6 +1,7 @@
 package salbinsson.game.text.main;
 
 import salbinsson.game.text.inout.Buffer;
+import salbinsson.game.text.world.Player;
 
 public class Start {
 	
