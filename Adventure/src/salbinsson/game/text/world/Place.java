@@ -1,4 +1,4 @@
-package salbinsson.game.text.stats;
+package salbinsson.game.text.world;
 
 import java.util.Vector;
 

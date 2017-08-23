@@ -1,6 +1,7 @@
 package salbinsson.game.text.main;
 import salbinsson.game.text.stats.*;
-import salbinsson.game.text.stats.Place.*;
+import salbinsson.game.text.world.Place;
+import salbinsson.game.text.world.Place.*;
 public class Player {
 	Accuracy acc = new Accuracy();
 	String Name = "Default";
