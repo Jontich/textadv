@@ -8,14 +8,24 @@ public class Player {
 	Friendly F = Friendly.good;
 	Place P = new Place (x.A,y.a);
 
+
 	
-	Player (int hit, int health, String N, Place p) {
-			Friendly F = Friendly.good;
+	public Player (int hit, int health, String N, Place p) {
 			acc.hit = hit;
 			acc.health = health;
 			Name = N;
 			P = p;
 	}
 
+	public String GetName() {
+		return Name;
+	}
+
+	public int GetHit () {
+		return acc.hit;
+	}
+	public int GetHealth () {
+		return acc.health;
+	}
 
 }
