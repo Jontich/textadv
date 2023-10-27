@@ -24,8 +24,24 @@ public class Player {
 	public int GetHit () {
 		return acc.hit;
 	}
+
 	public int GetHealth () {
 		return acc.health;
+	}
+
+	public String GetHealthV () {
+		
+		if (acc.health>70) {
+			return "you are ready to face danger ("+this.GetHealth() +")" ;
+		}
+			
+		
+		if (acc.health>30) {
+			return "your body is starting to feel worn ("+this.GetHealth() +")";
+		}
+
+		return "you are near death ("+this.GetHealth() +")";
+
 	}
 
 }

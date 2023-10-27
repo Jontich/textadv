@@ -19,8 +19,8 @@ public class Start {
 		S = buffer.read();
 		buffer.write ("Wasssuup " + S);
 		
-		Player MesaMoh = new Player(12,99,S,P);
-		buffer.write(MesaMoh.GetName() + " has a hit rate of "+ MesaMoh.GetHit()+" and a healt of "+MesaMoh.GetHealth() + ".");
+		Player MesaMoh = new Player(12,18,S,P);
+		buffer.write(MesaMoh.GetName() + " has a hit rate of "+ MesaMoh.GetHit()+" and "+MesaMoh.GetHealthV() + ".");
 	} 
 
 }
